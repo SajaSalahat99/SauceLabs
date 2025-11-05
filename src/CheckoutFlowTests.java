@@ -59,3 +59,4 @@ public class CheckoutFlowTests {
         Allure.step("Order completed successfully!");
     }
 }
+
