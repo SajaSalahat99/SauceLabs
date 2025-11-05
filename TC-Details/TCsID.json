@@ -1,0 +1,48 @@
+{
+  "TC001": {
+    "testCaseId": "TC001",
+    "testCaseName": "ValidateE2EScenario_AddProductsAndCheckout",
+    "description": "Complete E2E checkout flow: login, add random products to cart, and complete checkout",
+    "priority": "High",
+
+    "testSteps": [
+      {
+        "step": 1,
+        "action": "Login with valid credentials"
+      },
+      {
+        "step": 2,
+        "action": "Add 3 random products to cart"
+      },
+      {
+        "step": 3,
+        "action": "Navigate to cart and click checkout"
+      },
+      {
+        "step": 4,
+        "action": "Fill checkout information (First Name, Last Name, Postal Code)"
+      },
+      {
+        "step": 5,
+        "action": "Click continue button"
+      },
+      {
+        "step": 6,
+        "action": "Click finish button to complete order"
+      },
+      {
+        "step": 7,
+        "action": "Verify order completion message"
+      }
+    ],
+    "testData": {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "firstName": "test",
+      "lastName": "test",
+      "postalCode": "123456",
+      "productsToAdd": 3
+    },
+    "expectedResult": "Order is completed successfully with 'Thank you for your order!' confirmation message"}
+}
+

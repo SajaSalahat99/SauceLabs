@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="selenium-java-4.38.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/selenium-java-4.38.0.zip!/" />
+      <root url="file://$USER_HOME$/Desktop/selenium-java-4.38.0 2" />
+      <root url="jar://$USER_HOME$/Desktop/testng-7.7.1 (1).jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/allure-testng-2.23.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/selenium-java-4.38.0 2" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Desktop/selenium-java-4.38.0 2" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Desktop/selenium-java-4.38.0 2" recursive="false" type="SOURCES" />
+  </library>
+</component>
